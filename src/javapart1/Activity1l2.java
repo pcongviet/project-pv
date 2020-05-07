@@ -9,8 +9,8 @@ public class Activity1l2 {
         int a = scanner.nextInt();
         System.out.println("Nhap b:");
         int b = scanner.nextInt();
-        System.out.println("a+b="+ (a+b));
-        System.out.println("a*b="+ (a*b));
+        System.out.println(a+"+"+b+"="+ (a+b));
+        System.out.println(a+"*"+b+"="+ (a*b));
     }
 
 
