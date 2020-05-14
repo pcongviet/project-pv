@@ -21,6 +21,9 @@ public class Activity2l4 {
                 System.out.print("*");
             }
             System.out.println();
+
+
+
         }
     }
 }
