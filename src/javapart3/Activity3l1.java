@@ -8,7 +8,6 @@ public class Activity3l1 {
         int a = 0 ;
         int b = 0;
         int k = 0;
-        //so sánh 2 giá trị của hai mảng
         while (a<array1.length-1&&b<array2.length-1) {
                 if (array1[a] < array2[b]) {
                 array3[k] = array1[a];
