@@ -1,6 +1,6 @@
 package javapart3;
 
-public class Activity3l4 {
+public class Activity34 {
     public static void main(String []args){
         String a = "Hello student in PlusPlus Academy";
         System.out.println(a);
@@ -16,4 +16,5 @@ public class Activity3l4 {
 
         System.out.println(c);
     }
+
 }
