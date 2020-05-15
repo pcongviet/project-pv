@@ -2,15 +2,14 @@ package javapart3;
 
 public class Activity3l1 {
     public static void main(String[] args){
-        int[] array1 = {1,2,3,4,5};
+        int[] array1 = {1,2,3,4};
         int[] array2 = {2,5,7,8};
         int[] array3 = new int[array1.length+array2.length];
         int a = 0 ;
         int b = 0;
         int k = 0;
         //so sánh 2 giá trị của hai mảng
-        while (a<array1.length&&b<array2.length) {
-
+        while (a<array1.length-1&&b<array2.length-1) {
                 if (array1[a] < array2[b]) {
                 array3[k] = array1[a];
                 k++;
@@ -21,7 +20,7 @@ public class Activity3l1 {
                 k++;
                 a++;
                 b++;
-            } else ;
+            } else;
         }
         while (a<array1.length){
             array3[k++] =array1[a++];
