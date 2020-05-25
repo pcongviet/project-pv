@@ -1,6 +1,6 @@
 package javapart4;
 
-public class Studentman {
+public class StudentManagement {
     private int totalSv;
     private Students[] students;
 
@@ -20,7 +20,7 @@ public class Studentman {
         this.students = students;
     }
 
-    public Studentman(Students[] students) {
+    public StudentManagement(Students[] students) {
         this.students = students;
         this.totalSv = this.students.length;
 

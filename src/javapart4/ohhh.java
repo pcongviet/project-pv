@@ -18,11 +18,11 @@ public class ohhh {
             scanner.nextLine();
             students[i] = new Students(name, gpa);
         }
-        Studentman studentman = new Studentman(students);
-        studentman.insoSVdo();
-        studentman.insoSVtruot();
-        studentman.svGPAmax();
-        studentman.svGPAmin();
+        StudentManagement studentManagement = new StudentManagement(students);
+        studentManagement.insoSVdo();
+        studentManagement.insoSVtruot();
+        studentManagement.svGPAmax();
+        studentManagement.svGPAmin();
 
     }
 }
