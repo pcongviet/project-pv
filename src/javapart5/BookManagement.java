@@ -1,5 +1,7 @@
 package javapart5;
 
+import javax.swing.*;
+
 public class BookManagement {
     int n;
     Book [] book;
@@ -43,5 +45,10 @@ public class BookManagement {
             }
         }
         System.out.println("sach ban chay nhat: " +" "+book[c].getName() +" "+ book[c].getAuthor() +" "+ book[c].getPrice() +" "+ book[c].getTotalSold());
+    }
+    public void insach(){
+        for (int i = 0;i<n;i++){
+            System.out.println(book[i].getName() +" "+ book[i].getAuthor() +" "+ book[i].getPrice() +" "+ book[i].getTotalSold());
+        }
     }
 }

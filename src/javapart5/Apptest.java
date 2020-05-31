@@ -22,6 +22,7 @@ public class Apptest {
             book[i] = new Book(name,author,price,totalSold);
         }
         BookManagement bookManagement = new BookManagement(book);
+        bookManagement.insach();
         bookManagement.tongsobestsell();
         bookManagement.sachbanchaynhat();
     }
